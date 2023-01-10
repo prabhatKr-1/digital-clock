@@ -10,8 +10,6 @@ body {
   font-size: 7vh;
   font-weight: bolder;
   color: wheat;
-
-
 }
 .container {
   display: flex;
@@ -20,12 +18,18 @@ body {
   text-align: center;
   width: 30vw;
   height: 20vh;
-  background-color: lightseagreen;
   transition: 2ms;
 }
-.container div{
-    width: 6vw;
+.container div {
+  background-color: rgba(123, 227, 222, 0.631);
+  width: 10vw;
+  margin: 2px;
+  color: rgb(66, 100, 13);
+  opacity: .8;
 }
-.container:hover{
-    cursor:pointer;
+.container:hover {
+  cursor: pointer;
+}
+.ampm{
+  font-size: 0.7em;
 }
